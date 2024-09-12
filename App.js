@@ -122,16 +122,16 @@ let number = parseFloat(currentNumber);
       case 'percent':
         result = (number / 100).toString();
         break;
-        case 'sin':
+      case 'sin':
           result = Math.sin(number).toString();
           break;
-        case 'cos':
+      case 'cos':
           result = Math.cos(number).toString();
           break;
-        case 'tan':
+      case 'tan':
           result = Math.tan(number).toString();
           break;
-        case 'cot':
+      case 'cot':
           result = (1 / Math.tan(number)).toString();
           break;
       case 'x^y':
@@ -186,7 +186,7 @@ let number = parseFloat(currentNumber);
       borderRadius: 20,
     },
     operatorButton: {
-      backgroundColor: darkMode ? '#006699' : '#FF6600',
+      backgroundColor: darkMode ? '#9933CC' : '#FF6600',
       flex: 1,
       height: 80,
       margin: 5,
